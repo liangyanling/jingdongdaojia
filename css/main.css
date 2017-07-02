@@ -1,0 +1,503 @@
+.cantainer{
+	width:100%;
+	height:100%;
+	background-color:#eee;
+	}
+	
+	/*//nav部分*/
+	.nav{
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+	width:100%;
+	  height:44px; 
+	  background-color:#FFFFFF;
+	border-bottom:1px solid #eee;
+      position:fixed;
+      z-index:1000;
+	  top:0;
+	 opacity: 1;
+	}
+.nav1{ 
+		box-flex:1;
+		-moz-box-flex: 1;
+	    -webkit-box-flex:1 ;	
+	    width:100%;
+	   height:44px;
+	  }
+.nav2{
+		box-flex:1;
+		-moz-box-flex: 1;
+	    -webkit-box-flex:1 ;
+	    width:100%;
+	    height:44px;	
+	   /* background-color:#eee;*/
+	   /* border-radius:100px;*/
+	    display:-webkit-flex;
+	    justify-content: center;
+	    -webkit-align-items:center;
+	}
+.nav2 .dw{
+	
+	float:left;
+	display:block;
+	width:22px;
+	height:26px;
+	line-height:44px;
+	background:url("../img/index_spirite.png") 0 -53px ;
+	background-repeat: no-repeat;
+    background-size:20px;
+	}
+	.nav2 h1{
+		float:left;
+		line-height:35px;
+	}
+	.nav2 .xj{
+		float:left;
+	display:block;
+	width:22px;
+	height:26px;
+	line-height:44px;
+	background:url("../img/index_spirite.png") 0 -82px ;
+	background-repeat: no-repeat;
+    background-size:20px;
+	}
+			  
+.nav3{
+		box-flex:1;
+		-moz-box-flex: 1;
+	    -webkit-box-flex:1 ;
+	    width:100%;
+	    height:44px;
+	    display:-webkit-flex;
+	    -webkit-justify-content:flex-end;
+	    -webkit-align-items:center;
+	  }
+.nav3 .ss{
+	display:block;
+	width:22px;
+	height:26px;
+	line-height:44px;
+	background:url("../img/index_spirite.png") 0 4px ;
+	background-repeat: no-repeat;
+    background-size:20px;
+    margin-right:20px;
+}
+<!--//轮播图-->
+.swiper-container{
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+}
+.swiper-wrapper{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	
+}
+.swiper-wrapper img{
+	width:100%;
+}
+/*
+ * <!--  //第三层-->
+ */ 
+ .list-in{
+ 	background-color:#fff;
+ 	padding-top:5px;
+ 	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+	text-align:center;
+	padding-bottom:4px;
+ }
+ .list-in img{
+ 	height:50px ;
+ }
+ .list .list1{
+ 	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	display:-webkit-flex;
+	    justify-content: center;
+	    -webkit-align-items:center;
+ } 
+
+.list .list2{
+ 	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	 display:-webkit-flex;
+	    justify-content: center;
+	    -webkit-align-items:center;
+ } 
+ .list .list3{
+ 	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	 display:-webkit-flex;
+	  justify-content: center;
+	   webkit-align-items:center;
+ } 
+ .list .list4{
+ 	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	 display:-webkit-flex;
+	    justify-content: center;
+	    -webkit-align-items:center;
+ } 
+ /*//第五层*/
+.youhuile{
+	background-color:#fff;
+	padding-top:10px;
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+	border-top:1px solid #999;
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+		line-height:40px;
+	}
+
+.youhuizuo{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:20%;
+}
+.youhuiyou{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:20%;
+}
+.youhuile a{
+	 display:-webkit-flex;
+	  -webkit-justify-content: center;
+	   -/*webkit-align-items:center;*/
+	  
+}
+.youhuile .youhuioleft{
+	box-flex:4;
+	-moz-box-flex: 4;
+	-webkit-box-flex:4;
+	width:100%;
+	
+	
+}
+.youhuile .youhuioleft a img{
+	width:30px;
+	margin-right:20px;
+	
+	
+}
+.youhuile .youhuiright{
+	box-flex:4;
+	-moz-box-flex: 4;
+	-webkit-box-flex:4;
+	width:100%;
+	
+	   
+}
+.youhuile .youhuiright img{
+	width:30px;
+	margin-right:20px;
+}
+/*<!-- //图片-->*/
+.pic {
+	margin-top:10px;
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+	
+}
+.pic .picp{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:5%;
+}
+
+ .pici{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+}
+.pic .pici img{
+	width:100%;
+}
+.pic .picc{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:5%;
+}
+/*<!--//buy-->*/
+.buy{
+	width:100%;
+	height:auto;
+	background-color:#fff;
+}
+.buyIn{
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+	
+	}
+	.buyIn .buyone{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;	
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+      background-color:#eee;
+
+	   -webkit-align-items:center;
+	   margin:5px;
+	  padding:5px;
+	   
+	}
+	.buyIn .buyone .textr{
+		margin-left:30px;
+	  color:red;
+	  font-size:20px;
+}
+.buyIn .buyone .textr1{
+	margin-left:30px;
+	  color:blue;
+	  font-size:20px;
+}
+.buyIn .buyone .cai{
+	display:block;
+	color:#999;
+	font-size:16px;
+}
+.buyIn .buyone img{
+	margin-left:20px;
+	height:80px;
+}
+
+	.buyIn .buytwo{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;	
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+      background-color:#eee;
+	/*  justify-content: center;*/
+	   -webkit-align-items:center;
+	   margin:5px;
+	  padding:5px;
+	}
+	.buyIn .buytwo .textr{
+		margin-left:30px;
+	  color:green;
+	  font-size:20px;
+}
+.buyIn .buytwo .textr1{
+		margin-left:30px;
+	  color:#CB5C6F;
+	  font-size:20px;
+}
+.buyIn .buytwo .cai{
+	display:block;
+	color:#999;
+	font-size:16px;
+}
+.buyIn .buytwo img{
+	margin-left:20px;
+	height:80px;
+}
+.buyIn .buythree{
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:20%;	
+}
+  /* <!--   福利-->*/
+ .fulifirst{
+ 	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;	
+		box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+	-webkit-align-items:center;
+	-webkit-justify-content: center;
+	text-align:center;
+ }
+.fulifirst .new{
+	display:box;
+	background-color:#fff;
+	display:-webkit-box;
+	display:-moz-box;
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;	
+	display:-webkit-flex;
+	-webkit-justify-content: center;
+padding:10px 0;
+}
+.fulifirst .new  .newp{
+	font-weight:700;
+}
+.fulifirst .new  img{
+    display:block;
+	height:70px;
+	  -webkit-align-items:center;
+	 border-radius: 50%;
+}
+/*<!--底部-->*/
+.buttom{
+	width:100%;
+	/*height:50px;*/
+	border-top:1px solid #eee;
+	background-color:#FFFFFF;
+	position:fixed;
+	bottom:0px;
+	
+}
+.buttomIn{
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+	
+}
+.buttomIn .main{
+	display:-webkit-flex;
+	-webkit-justify-content: center;
+	  -webkit-justify-content: center;
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+}
+.buttomIn .main .mai{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url("../img/nav2.png") no-repeat 0px 5px;
+	background-size:60%;
+}
+.buttomIn .class{
+	display:-webkit-flex;
+	-webkit-justify-content: center;
+	  -webkit-justify-content: center;
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+}
+.buttomIn .class .clas{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url("../img/nav2.png") no-repeat 0px -319px;
+	background-size:60%;
+}
+.buttomIn .shop{
+	display:-webkit-flex;
+	-webkit-justify-content: center;
+	  -webkit-justify-content: center;
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+}
+.buttomIn .shop .sho{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url("../img/nav2.png") no-repeat 0px -374px;
+	background-size:60%;
+}
+.buttomIn .order{
+	display:-webkit-flex;
+	-webkit-justify-content: center;
+	  -webkit-justify-content: center;
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+}
+.buttomIn .order .orde{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url("../img/nav2.png") no-repeat 0px -430px;
+	background-size:60%;
+}
+.buttomIn .myself{
+	display:-webkit-flex;
+	-webkit-justify-content: center;
+	  -webkit-justify-content: center;
+	box-flex:1;
+	-moz-box-flex: 1;
+	-webkit-box-flex:1;
+	width:100%;
+	
+}
+
+.buttomIn .myself .self{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url("../img/nav2.png") no-repeat 0px -484px;
+	background-size:60%;
+}
+.top{
+	display:block;
+	width:25px;
+	height:25px;
+	background-color:#999;
+	position:fixed;
+	bottom:120px;
+	right:0;
+	z-index:444;
+	text-align:center;
+	line-height:25px;
+	opacity:0;
+}
+ .top .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#fff;
+    }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>分类</title>
+		<link rel="stylesheet" href="css/class.css" />
+		<link rel="stylesheet" href="css/init.css" />
+		<script src="js/ang.js"></script>
+		<script src="js/jquery-2.2.3.js"></script>
+		
+	</head>
+	<body>
+		<div class="cantainer">
+			<div class="nav">
+				<form action="">
+					<span class="search"></span><input type="text" placeholder="搜索附近的商店和门店" class="text1">
+				</form>
+			</div>
+			<div class="huadong" ng-app="myApp" ng-controller="con">
+				<div class="huadongleft">
+					<ul >
+						<li ng-repeat="i in listList"
+							ng-click="showTab($index)" 
+							ng-class="{true:'li1'}[$index==tabNum]">
+							     {{i.list1}}</li>
+					
+					</ul>
+				</div>
+				<div class="huadongright">
+					<div ng-repeat="k in applayList ">
+						<div>
+							<h1 >{{k.title1}}</h1>
+						<ul>
+					 	<li ng-repeat="j in k.content1"><img src="{{j.src}}"><p>{{j.text}}</p></li>
+					 	</ul>
+					 	
+					 	<h1 >{{k.title2}}
+						<ul>
+					 	<li ng-repeat="j in k.content2"><img src="{{j.src}}"><p>{{j.text}}</p></li>
+					 	</ul>
+					 	</h1>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!--底部-->
+			<div class="buttom">
+				<div class="buttomIn">
+					<div class="main"><a href="main.html"><span class="mai"></span>首页</a></div>
+					<div class="class"><a href="class.html"><span class="clas"></span>分类</a></div>
+					<div class="shop"><a href="shop.html"><span class="sho"></span>购物车</a></div>
+					<div class="order"><a href="order.html"><span class="orde"></span>订单</a></div>
+					<div class="myself"><a href="myself.html"><span class="self"></span>我的</a></div>
+				</div>
+			</div>
+				</div>
+
+		
+		<script src="js/class.js"></script>
+	</body>
+</html>

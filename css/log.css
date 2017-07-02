@@ -1,0 +1,267 @@
+.container{
+	width:100%;
+	height:100%;
+}
+.nav{
+	width:100%;
+	border-bottom:1px solid #bbb;
+}
+.nav .jddl{
+	display:block;
+	text-align:center;
+	font-size:10px;
+	padding:10px 0;
+	letter-spacing:2px;
+	background-color:#F9F9F9;
+}
+.nav .jddl:before{
+	content:"";
+	display:block;
+	width:22px;
+	height:22px;
+	background:url("../img/iconBg.png") no-repeat 0 -64px;
+	background-size:99% auto;
+	position:absolute;
+	top:6px;
+	left:10px;
+}
+.content{
+	display:box;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-webkit-flex;
+	box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+	margin-top:10px;
+} 
+.content .divleft{
+	box-flex:4;
+		-moz-box-flex: 4;
+	    -webkit-box-flex:4 ;	
+	    width:42%;
+	   /* background-color:red;*/
+} 
+.content .divcenter{
+	      box-flex:1;
+		-moz-box-flex: 1;
+	    -webkit-box-flex:1 ;	
+	     width:100%;
+	    position:relative;
+	    } 
+.content .divcenter form input[type="text"]{
+	width:100%;
+	font-size:10px;
+	line-height:30px;
+	outline:none;
+	border-color:#eee;
+	border-radius:3px;
+	padding-left:10px;
+	/*margin-top:10px;*/
+	
+}
+
+.content .divcenter form .x{
+	display:block;
+	width:22px;
+	height:21px;
+	background:url("../img/iconBg.png") no-repeat 0px 0px;
+	background-size:93%;
+	position:absolute;
+	top:38px;
+	right:9px;
+	
+}
+.content .divcenter form input[type="password"]{
+	width:100%;
+	font-size:14px;
+	line-height:50px;
+	outline:none;
+	border-color:#eee;
+	border-radius:3px;
+	padding-left:10px;
+	margin-top:20px;
+}
+.content .divcenter form .xx{
+	display:block;
+	width:22px;
+	height:21px;
+	background:url("../img/iconBg.png") no-repeat 0px 0px;
+	background-size:93%;
+	position:absolute;
+	top:109px;
+	right:96px;
+	
+}
+
+.content .divcenter form input[type="text"]{
+	width:100%;
+	font-size:14px;
+	line-height:50px;
+	outline:none;
+	border-color:#eee;
+	border-radius:3px;
+	padding-left:10px;
+	margin-top:20px;
+	position:relative;
+}
+
+.content .divcenter form .xxx{
+	display:block;
+	width:22px;
+	height:21px;
+	background:url("../img/iconBg.png") no-repeat 0px 0px;
+	background-size:93%;
+	position:relative;
+	top:179px;
+	right:99px;
+	
+}
+.content .divcenter form img{
+	position:absolute;
+	left:588px;
+	top:172px;
+}
+
+
+.content .divcenter form input[type="submit"]{
+	width:102%;
+	font-size:14px;
+	line-height:50px;
+	outline:none;
+	border-color:#eee;
+	/*padding-left:30px;*/
+	margin-top:30px;
+	background-color:#eee;
+	color:#CCCCCC;
+}
+.content .divcenter form input[type="radio"]{
+	display:none;
+
+}
+.content .divcenter form .ii{
+	margin-top:30px;
+	float:left;
+	display:block;
+	width:22px;
+	height:18px;
+	background:url("../img/iconBg.png") no-repeat 0px -87px;
+	background-size:100%;
+}
+ .content .divcenter form .iii{
+	background-position:0px -107px;
+	
+}
+.content .divcenter form  .year{
+	 font-size:14px;
+	 line-height:83px;
+	 margin-left:2px;
+}
+.content .divcenter .key{
+	width:100%;
+	height:40px;
+	position:relative;
+	
+}
+.content .divcenter .key .keypwd{
+	float:left;
+	width:200px;
+}
+.content .divcenter .key .keypwd .pw{
+	display:block;
+	width:22px;
+	height:22px;
+   background:url("../img/iconBg.png") no-repeat 0px -23px;
+   background-size:100%;
+   float:left;
+   margin-top:2px;
+}
+.content .divcenter .key .keypwd .find{
+	display:block;
+	font-size:14px;
+	line-height:27px;
+	
+}
+.content .divcenter .key .keyzc{
+	float:right;
+	
+	
+}
+.content .divcenter .key .keyzc .pw1{
+	text-align:right;
+	float:left;
+	display:block;
+	width:22px;
+	height:22px;
+   background:url("../img/iconBg.png") no-repeat 0px -42px;
+   background-size:100%;
+   position:absolute;
+  margin-right:15px;
+   top:4px;
+   right:41px;
+}
+.content .divcenter .key .keyzc .zc{
+	font-size:14px;
+	line-height:28px;
+}
+.content .divcenter .qq{
+	/*background-color:#eee;*/
+	width:100%;
+	
+}
+.content .divcenter .qq .way{
+	font-size:14px;
+	text-align:center;
+	margin-left:10px;
+	margin-left:20px;
+	width:20%;
+	
+}
+.content .divcenter .qq .way:before{
+	float:left;
+	content:"";
+	display:block;
+	width:42%;
+	height:1px;
+	background-color:#eee;
+	margin-top:10px;
+}
+.content .divcenter .qq .way:after{
+	float:right;
+	content:"";
+	display:block;
+	width:43%;
+	height:1px;
+	
+	background-color:#eee;
+	margin-top:10px;
+}
+.content .divcenter .qe{
+	text-align:center;
+	width:100%;
+	
+}
+.content .divcenter .qe .qq1{
+	display:block;
+	width:22px;
+	height:22px;
+	background:url("../img/iconBg.png") no-repeat 0px -129px;
+	 background-size:100%;
+	margin:0 auto;
+	margin-top:20px;
+	/*margin-left:43%;*/
+}
+.content .divcenter .qe .qq1:after{
+	content:"QQ";
+	position:relative;
+	top:19px;
+	font-size:14px;
+	
+}
+.content .divright{
+	box-flex:4;
+		-moz-box-flex: 4;
+	    -webkit-box-flex:4 ;	
+	    width:42%;
+/*	    background-color:red;*/
+} 
